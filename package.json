@@ -6,12 +6,13 @@
     "node": ">=20.0.0"
   },
   "scripts": {
-    "build":"npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "npm run start --prefix backend"
   },
   "dependencies": {
-    "express": "^4.21.1",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "drizzle-kit": "^0.31.6",
+    "express": "^4.21.1"
   },
   "keywords": [],
   "author": "",
